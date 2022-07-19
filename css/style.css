@@ -5,6 +5,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 /* 
 ------------navigation bar--------- */
@@ -47,6 +53,11 @@ font-weight: 600;
     margin-left: 90px;
     margin-bottom: 30px;
 }
+.btn-arrow{
+    margin-left: 10px;
+    align-items: center;
+    
+}
 
 .banner{
     width: 100%;
@@ -79,6 +90,11 @@ hr{
    margin-bottom: 2%;
 
 }
+.container h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 .all-logo{
     display: flex;
     justify-content: center;  
@@ -86,4 +102,24 @@ hr{
 .logo{
     margin: 0 20px;
     
+}
+/* ---------------------
+--------------------------
+-------------------- */
+
+.category{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px ;
+    grid-row-gap: 30px ;
+    align-items: center;
+    background-color:lightblue;
+    box-shadow:20px 20px 50px 10px pink;
+    
+}
+
+.product .product-banner img{
+    width: 350px;
+    height: 256px;
+    margin:50px;
 }
